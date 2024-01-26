@@ -1,0 +1,13 @@
+.content_nav_children{
+
+}
+@media (max-width: 872px) {
+    .content_nav {
+        display: none;
+      }
+      .content_nav_children{
+          width: 100%;
+      }
+  }
+
+

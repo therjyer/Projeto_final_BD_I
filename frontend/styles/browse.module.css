@@ -1,0 +1,99 @@
+.content{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.content h1{
+    color: #fff;
+    font-size: 30px;
+    font-weight: unset;
+}
+.content h2{
+    color: #fff;
+    color: #666;
+    font-size: 1.3vw;
+}
+
+.content_card span{
+    align-items: center;
+    color: grey;
+    display: block;
+    font-size: 1.3vw;
+    line-height: 1.2em;
+    margin: 0.6em 0;
+    min-height: 1.8em;
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis;
+    font-size: 1rem;
+}
+.content_card_option{
+    display: inline-table;
+}
+.content_general{
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: #141414;
+}
+.icon{
+    background: #141414;
+    color: white;
+    font-size: 6rem;
+    text-align: center;
+    display: table-caption;
+    height: 142px;
+    width: 134px;
+    cursor: pointer;
+}
+.icon:hover{
+    background: rgb(255, 255, 255);
+    color: #141414;
+    font-size: 6rem;
+    text-align: center;
+    display: table-caption;
+    height: 142px;
+    width: 134px;
+}
+.content_card_add_user{
+    display: f;
+    grid-template-columns: 1fr 1fr;
+    padding: 2em 0;
+    align-items: center;
+    gap: 1rem;
+    border-bottom: 1px solid #333;
+    border-top: 1px solid #333;
+}
+.content_button{
+    padding-top: 1.5rem;
+    gap: 1rem;
+    display: flex;
+}
+.input{
+    width: 100%;
+}
+.card_account{
+    display: flex;
+}
+
+
+/* shadow modal */
+.shadow{
+    position: absolute;
+    top: 36.5%;
+    bottom: 46%;
+    left: 0;
+    right: 0;
+    background: linear-gradient(180deg, rgb(0 0 0 / 0%) -10%, #141414 100%, #141414 65%);
+}
+
+
+@media (max-width: 360px) {
+    .card_account{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+  }
